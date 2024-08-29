@@ -19,10 +19,52 @@ header {
 
 h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 main {
     padding: 20px;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.tables {
+    margin-bottom: 20px;
+}
+
+.tables h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.cta {
     text-align: center;
 }
 
