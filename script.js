@@ -1,7 +1,8 @@
 // script.js
-document.addEventListener('DOMContentLoaded', () => {
-    const button = document.getElementById('clickMeButton');
-    button.addEventListener('click', () => {
-        alert('Button clicked!');
+
+// Example of a function to display an alert when a service is clicked
+document.querySelectorAll('.service').forEach(service => {
+    service.addEventListener('click', () => {
+        alert('You clicked on a service!');
     });
 });
